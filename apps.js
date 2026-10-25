@@ -22,7 +22,7 @@ window.NEXORA_APPS = [
     minAndroid: "Android 8.0+",
     screenshots: ["assets/screenshots/demo1.svg", "assets/screenshots/demo1.svg"],
     whatsNew: ["ตัวอย่างรายการเปลี่ยนแปลง"],
-    apk: "https://github.com/EuoTER/nexora-app-install/releases/download/v1.0.0/app-debug.apk",
+    apk: "",
     featured: true,
     trending: true,
     demo: true
