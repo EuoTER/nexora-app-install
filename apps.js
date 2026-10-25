@@ -8,16 +8,23 @@ window.NEXORA_CONFIG = {
   developer: { name: "ชื่อผู้พัฒนา (แก้ใน apps.js)", contact: "mailto:you@example.com", contactLabel: "you@example.com" },
   privacyUrl: "#/about", termsUrl: "#/about"
 };
-window.NEXORA_APPS = [  
+window.NEXORA_APPS = [
   {
-    id: "my-app",
-    name: "My App",
+    id: "demo-toolkit",
+    name: "Demo Toolkit",
     category: "Tools",
-    icon: "assets/icons/my-app.png",
-    version: "1.0.0",
-    size: "10 MB",
+    icon: "assets/icons/demo.svg",
+    short: "แอปตัวอย่างสำหรับทดสอบหน้าเว็บ",
+    description: "นี่คือข้อมูลตัวอย่าง (Demo) เพื่อแสดงรูปแบบหน้าเว็บเท่านั้น ยังไม่มีไฟล์ APK จริง ให้แทนที่ด้วยแอปของคุณใน apps.js",
+    version: "0.0.1",
+    size: "—",
     updated: "2026-10-25",
-    whatsNew: "เวอร์ชันแรก",
-    apk: "https://github.com/EuoTER/nexora-app-install/releases/download/v1.0.0/app-debug.apk"
+    minAndroid: "Android 8.0+",
+    screenshots: ["assets/screenshots/demo1.svg", "assets/screenshots/demo1.svg"],
+    whatsNew: ["ตัวอย่างรายการเปลี่ยนแปลง"],
+    apk: "https://github.com/EuoTER/nexora-app-install/releases/download/v1.0.0/app-debug.apk",
+    featured: true,
+    trending: true,
+    demo: true
   }
 ];
