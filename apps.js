@@ -18,6 +18,6 @@ window.NEXORA_APPS = [
     size: "10 MB",
     updated: "2026-10-25",
     whatsNew: "เวอร์ชันแรก",
-    apk: "ใส่ลิงก์ APK จริงตรงนี้"
+    apk: "https://github.com/EuoTER/nexora-app-install/releases/download/v1.0.0/app-debug.apk"
   }
 ];
